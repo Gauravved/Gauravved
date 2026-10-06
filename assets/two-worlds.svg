@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Gaurav Pandit's two worlds: Helios game technology and Agentic AI data intelligence">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111d"/><stop offset="1" stop-color="#111329"/></linearGradient>
+  <linearGradient id="left" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b2531"/><stop offset="1" stop-color="#17152d"/></linearGradient>
+  <linearGradient id="right" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1e32"/><stop offset="1" stop-color="#15152e"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="430" rx="22" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="428" rx="21" fill="none" stroke="#24465d"/>
+
+<text x="42" y="48" fill="#34e9ff" font-family="monospace" font-size="16" font-weight="700">&gt; ./my_two_worlds</text>
+<text x="600" y="48" text-anchor="middle" fill="#8198aa" font-family="monospace" font-size="13" letter-spacing="2">DIFFERENT DOMAINS. SAME OBSESSION: UNDERSTANDING SYSTEMS.</text>
+
+<!-- left -->
+<rect x="32" y="72" width="550" height="316" rx="18" fill="url(#left)" stroke="#23dfff"/>
+<circle cx="84" cy="125" r="27" fill="#112e3b" stroke="#ff9b3d" stroke-width="2"/>
+<text x="84" y="134" text-anchor="middle" fill="#ffb45e" font-size="25">🎮</text>
+<text x="128" y="116" fill="#ffad57" font-family="monospace" font-size="13" font-weight="700">GAME TECHNOLOGY</text>
+<text x="128" y="151" fill="#f3f7ff" font-family="monospace" font-size="30" font-weight="800">HELIOS</text>
+<text x="128" y="174" fill="#9bb1c1" font-family="monospace" font-size="13">A GAME ENGINE BUILT FROM SCRATCH</text>
+
+<g font-family="monospace" font-size="15" fill="#d8e7ef">
+  <text x="70" y="222">◆ C++20</text>
+  <text x="70" y="254">◆ Engine Architecture</text>
+  <text x="70" y="286">◆ OpenGL / Rendering</text>
+  <text x="70" y="318">◆ Graphics &amp; GPU Systems</text>
+  <text x="70" y="350">◆ Game Technology</text>
+</g>
+
+<!-- right -->
+<rect x="618" y="72" width="550" height="316" rx="18" fill="url(#right)" stroke="#9b5cff"/>
+<circle cx="670" cy="125" r="27" fill="#171d3b" stroke="#5ee7ff" stroke-width="2"/>
+<text x="670" y="134" text-anchor="middle" fill="#5ee7ff" font-size="24">🤖</text>
+<text x="714" y="116" fill="#62e9ff" font-family="monospace" font-size="13" font-weight="700">AI &amp; DATA INTELLIGENCE</text>
+<text x="714" y="151" fill="#f3f7ff" font-family="monospace" font-size="26" font-weight="800">ATTRIBUTE LINEAGE</text>
+<text x="714" y="174" fill="#9bb1c1" font-family="monospace" font-size="13">AGENTIC AI FOR ENTERPRISE DATA</text>
+
+<g font-family="monospace" font-size="15" fill="#d8e7ef">
+  <text x="656" y="222">◆ Agentic AI + LLMs</text>
+  <text x="656" y="254">◆ COBOL / SAS / SQL</text>
+  <text x="656" y="286">◆ Custom SAS Parser</text>
+  <text x="656" y="318">◆ Attribute-Level Lineage</text>
+  <text x="656" y="350">◆ Collibra JSON Conversion</text>
+</g>
+
+<!-- connector -->
+<g filter="url(#glow)" fill="none" stroke="#5be9ff">
+  <path d="M582 230H618" stroke-width="2" stroke-dasharray="5 6"/>
+  <circle cx="600" cy="230" r="6" fill="#5be9ff"/>
+</g>
+</svg>

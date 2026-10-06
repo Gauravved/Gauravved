@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Connect with Gaurav Pandit on GitHub and LinkedIn">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#07111c"/>
+    <stop offset="1" stop-color="#111329"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#22e6ff"/>
+    <stop offset=".5" stop-color="#a855f7"/>
+    <stop offset="1" stop-color="#22e6ff"/>
+  </linearGradient>
+</defs>
+
+<rect width="1200" height="250" rx="22" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="248" rx="21" fill="none" stroke="#274a61"/>
+
+<text x="600" y="54" text-anchor="middle"
+      fill="#36eaff" font-family="monospace" font-size="15" font-weight="700">
+  &gt; ./connect
+</text>
+
+<text x="600" y="90" text-anchor="middle"
+      fill="#f4f8ff" font-family="monospace" font-size="28" font-weight="800">
+  LET'S BUILD SOMETHING INTERESTING.
+</text>
+
+<text x="600" y="117" text-anchor="middle"
+      fill="#879eae" font-family="monospace" font-size="13">
+  Game tech • AI systems • C++ • ambitious rabbit holes
+</text>
+
+<!-- Replace these two placeholder URLs with your actual profiles -->
+<a href="https://github.com/Gauravved" target="_blank">
+  <rect x="375" y="150" width="190" height="54" rx="12"
+        fill="#101e2d" stroke="#536b7e"/>
+  <text x="470" y="184" text-anchor="middle"
+        fill="#e8f2f8" font-family="monospace" font-size="16" font-weight="700">
+    ◉  GitHub
+  </text>
+</a>
+
+<a href="https://www.linkedin.com/in/gaurav-pandit-761377266" target="_blank">
+  <rect x="635" y="150" width="190" height="54" rx="12"
+        fill="#0b2a43" stroke="#28b8f2"/>
+  <text x="730" y="184" text-anchor="middle"
+        fill="#dff7ff" font-family="monospace" font-size="16" font-weight="700">
+    in  LinkedIn
+  </text>
+</a>
+
+<path d="M180 226H1020" stroke="url(#line)" stroke-width="2" opacity=".7"/>
+
+<text x="600" y="235" text-anchor="middle"
+      fill="#587286" font-family="monospace" font-size="10" letter-spacing="3">
+  GOOD CODE • BETTER GAMES • SMARTER SYSTEMS
+</text>
+</svg>

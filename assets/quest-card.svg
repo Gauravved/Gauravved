@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Current quest: evolve Helios into a real game engine">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07121e"/><stop offset="1" stop-color="#14122a"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#19e6ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="358" rx="21" fill="none" stroke="#2a5169"/>
+
+<text x="42" y="48" fill="#34e9ff" font-family="monospace" font-size="16" font-weight="700">&gt; ./current_quest</text>
+<text x="1158" y="48" text-anchor="end" fill="#687f91" font-family="monospace" font-size="12">QUEST_ID: HELIOS_01</text>
+
+<text x="42" y="92" fill="#f4f8ff" font-family="monospace" font-size="31" font-weight="800">EVOLVE HELIOS INTO A REAL GAME ENGINE</text>
+<text x="42" y="119" fill="#9bb0bf" font-family="monospace" font-size="14">Not just a renderer. Not just a demo. A system people can build games with.</text>
+
+<!-- progress -->
+<rect x="42" y="148" width="1116" height="18" rx="9" fill="#162638"/>
+<rect x="42" y="148" width="540" height="18" rx="9" fill="url(#bar)" filter="url(#glow)"/>
+<text x="600" y="162" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12" font-weight="700">48%</text>
+
+<g font-family="monospace" font-size="14">
+  <circle cx="58" cy="204" r="7" fill="#35f0b1"/><text x="78" y="209" fill="#d7e5ee">Core Engine &amp; Windowing</text>
+  <circle cx="58" cy="236" r="7" fill="#35f0b1"/><text x="78" y="241" fill="#d7e5ee">OpenGL Rendering</text>
+  <circle cx="58" cy="268" r="7" fill="#35f0b1"/><text x="78" y="273" fill="#d7e5ee">3D Scene / Camera Systems</text>
+
+  <circle cx="58" cy="300" r="7" fill="none" stroke="#61798b" stroke-width="2"/><text x="78" y="305" fill="#91a5b4">Game Systems</text>
+  <circle cx="58" cy="332" r="7" fill="none" stroke="#61798b" stroke-width="2"/><text x="78" y="337" fill="#91a5b4">Editor &amp; Tooling</text>
+
+  <circle cx="612" cy="204" r="7" fill="none" stroke="#a855f7" stroke-width="2"/><text x="632" y="209" fill="#bca7d9">Vulkan Backend</text>
+  <circle cx="612" cy="236" r="7" fill="none" stroke="#a855f7" stroke-width="2"/><text x="632" y="241" fill="#bca7d9">Advanced Lighting</text>
+  <circle cx="612" cy="268" r="7" fill="none" stroke="#a855f7" stroke-width="2"/><text x="632" y="273" fill="#bca7d9">Ray Tracing</text>
+  <circle cx="612" cy="300" r="7" fill="none" stroke="#a855f7" stroke-width="2"/><text x="632" y="305" fill="#bca7d9">Asset / Scene Pipeline</text>
+</g>
+
+<rect x="840" y="190" width="318" height="104" rx="14" fill="#0a1726" stroke="#243f55"/>
+<text x="864" y="220" fill="#ffb45e" font-family="monospace" font-size="12">PASSIVE EFFECT</text>
+<text x="864" y="246" fill="#e2edf5" font-family="monospace" font-size="14">"I'll just add one more</text>
+<text x="864" y="268" fill="#e2edf5" font-family="monospace" font-size="14">feature."</text>
+<text x="864" y="286" fill="#ff6b8a" font-family="monospace" font-size="11">WARNING: SCOPE CREEP DETECTED</text>
+</svg>

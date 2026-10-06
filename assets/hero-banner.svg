@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Gaurav Pandit — AI Engineer, C++ Developer, Game Technology">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#06111f"/><stop offset="0.55" stop-color="#081827"/><stop offset="1" stop-color="#10112b"/>
+  </linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#27e7ff"/><stop offset="1" stop-color="#5ba8ff"/>
+  </linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#ec4899"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#1b3852" stroke-width="1"/>
+  </pattern>
+</defs>
+
+<rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="22" fill="url(#grid)" opacity=".38"/>
+<rect x="1" y="1" width="1198" height="358" rx="21" fill="none" stroke="#20d9ff" stroke-opacity=".5"/>
+
+<!-- ambient system lines -->
+<g opacity=".45" stroke="#1edfff" fill="none">
+  <path d="M730 58H1130"/><path d="M790 78H1180"/>
+  <path d="M850 278H1160"/><path d="M760 300H1080"/>
+</g>
+
+<!-- terminal label -->
+<rect x="52" y="42" width="300" height="34" rx="8" fill="#07101c" stroke="#1ee6ff" stroke-opacity=".65"/>
+<circle cx="72" cy="59" r="4" fill="#32f5a1"/>
+<text x="87" y="64" fill="#7eeeff" font-family="monospace" font-size="15">gaurav@github:~$ whoami</text>
+
+<text x="52" y="142" fill="#f3f7ff" font-family="monospace" font-size="58" font-weight="800" letter-spacing="2">GAURAV</text>
+<text x="330" y="142" fill="url(#cyan)" font-family="monospace" font-size="58" font-weight="800" letter-spacing="2">PANDIT</text>
+
+<text x="54" y="180" fill="#72ecff" font-family="monospace" font-size="20" letter-spacing="2">AI ENGINEER  //  C++ DEVELOPER  //  GAME TECHNOLOGY</text>
+
+<text x="54" y="232" fill="#b9c9d8" font-family="monospace" font-size="18">&gt; Building systems that make me understand</text>
+<text x="54" y="258" fill="#b9c9d8" font-family="monospace" font-size="18">&gt; how things work.</text>
+<rect x="346" y="242" width="10" height="22" fill="#2de4ff" filter="url(#glow)"/>
+
+<!-- right-side engine / AI nodes -->
+<g filter="url(#glow)">
+  <circle cx="930" cy="170" r="76" fill="#0b1b2c" stroke="#28e8ff" stroke-width="2"/>
+  <circle cx="930" cy="170" r="52" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="7 8"/>
+</g>
+<g stroke="#35eaff" stroke-width="2" fill="none" opacity=".9">
+  <path d="M930 94V116M930 224V246M854 170H876M984 170H1006"/>
+  <path d="M876 116L891 131M984 131L999 116M891 209L876 224M984 209L999 224"/>
+</g>
+<g fill="#dffcff">
+  <circle cx="930" cy="170" r="14"/>
+  <circle cx="891" cy="131" r="6" fill="#a855f7"/>
+  <circle cx="969" cy="131" r="6" fill="#a855f7"/>
+  <circle cx="891" cy="209" r="6" fill="#22d3ee"/>
+  <circle cx="969" cy="209" r="6" fill="#22d3ee"/>
+</g>
+<text x="930" y="282" text-anchor="middle" fill="#80f3ff" font-family="monospace" font-size="13" letter-spacing="3">SYSTEMS // AI // GAMES</text>
+
+<!-- footer telemetry -->
+<g font-family="monospace" font-size="13">
+  <text x="54" y="320" fill="#5e7488">STATUS</text>
+  <text x="112" y="320" fill="#32f5a1">ONLINE</text>
+  <text x="190" y="320" fill="#5e7488">|</text>
+  <text x="210" y="320" fill="#5e7488">CURRENT QUEST</text>
+  <text x="340" y="320" fill="#d8e8f5">BUILD THE THING UNDER THE THING</text>
+</g>
+</svg>
