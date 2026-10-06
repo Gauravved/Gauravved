@@ -279,14 +279,19 @@ PASSIVE QUEST
 
 ## `./connect`
 
+<h3 align="center">🎮 Join my lobby</h3>
+
 <p align="center">
-  <img src="assets/connection-footer.svg" alt="Connect with Gaurav Pandit" width="100%">
+  <a href="https://www.linkedin.com/in/gaurav-pandit-761377266">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a> &nbsp;
+  <a href="https://github.com/Gauravved/HeliosGameEngine">
+    <img src="https://img.shields.io/badge/Helios-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="Helios">
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Gauravved">GitHub</a>
-  ·
-  <a href="https://www.linkedin.com/in/gaurav-pandit-761377266">LinkedIn</a>
+  <i>Available for interesting side quests.</i>
 </p>
 
 ---
