@@ -174,19 +174,36 @@ I also built a **custom SAS parser** for parsing source code and discovering att
 class Developer
 {
 public:
-    void learn()
+    void run()
     {
-        understandTheProblem();
-        questionTheAbstraction();
-        buildAPrototype();
-        breakIt();
-        debugIt();
-        understandItBetter();
+        auto work = decompose(problem);
+
+        dispatch(work,
+            [](Task& task)
+            {
+                execute(task);
+            });
+
+        synchronize();
+        validate();
+        profile();
+        optimize();
     }
 
-    void repeat()
+private:
+    static void execute(Task& task)
     {
-        learn();
+        load(task);
+        compute(task);
+        store(task);
+    }
+
+    static void optimize()
+    {
+        reduceContention();
+        improveLocality();
+        minimizeSynchronization();
+        eliminateUnnecessaryWork();
     }
 };
 ```
